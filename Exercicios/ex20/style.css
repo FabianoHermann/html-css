@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(161, 168, 168, 0.466);
+    font-family: 'Times New Roman', Times, Helvetica, serif;
+    font-size: 1.5em;
+}
+/* Em HTMl é id = em CSS é #
+   Em HTML é class= em CSS é .
+*/
+h1 {
+    color: #eb721cdc;
+
+}
+#principal {
+    text-align: center;
+    background-color:#eb721cdc ;
+    color: white;
+}
+h2 {
+    color: rgb(69, 63, 129);
+}
+.basico {
+    color: rgb(91, 179, 4);
+    text-shadow:0.5px 0.5px #020202dc;
+}
+.intermediario {
+    color: rgb(182, 179, 12);
+    font-weight: bolder;
+    text-shadow:0.5px 0.5px #020202dc;
+   
+
+}
+.avançado {
+    color: rgb(177, 16, 16);
+    text-shadow:0.5px 0.5px #020202dc;
+}
