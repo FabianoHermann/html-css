@@ -8,13 +8,20 @@
 <body>
     <h1>Exemplo de Formulário</h1>
         <form action="cadastro.php" method="get" autocomplete="on">
-            <fieldset>
+            
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <label for="isxmas"><input type="radio" name="sexo" id="isxmas" value="M"></label> Masculino <br>
+                    <label for="isfem"><input type="radio" name="sexo" id="isfem" value="F"> Femenino</label>
+                </fieldset>
 
+                
+                <fieldset>
                 <legend>Esportes favoritos</legend>
-                <input type="checkbox" name="esfut" id="iesfut"> Futebol <br>
-                <input type="checkbox" name="ebasquete" id="iesbasquete"> Basquete <br>
-                <input type="checkbox" name="enatação" id="ienatação"> Natação <br>
-                <input type="checkbox" name="evolei" id="ievolei"> VoleiBol
+                <label for="iesfut"><input type="checkbox" name="esfut" id="iesfut"> Futebol</label> <br>
+                <label for="iesbasquete"><input type="checkbox" name="ebasquete" id="iesbasquete"> Basquete</label> <br>
+                <label for="ienatação"><input type="checkbox" name="enatação" id="ienatação"> Natação </label><br>
+                <label for="ievolei"><input type="checkbox" name="evolei" id="ievolei"> VoleiBol</label>
             </fieldset>
 
             <p>
