@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        option#escolha{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+            <option value="" id="escolha" selected>---Escolha---</option>   
+            <option value="AC">Acre (AC)</option>
+            <option value="AL">Alagoas (AL)</option>
+            <option value="AP">Amapá (AP)</option>
+            <option value="AM">Amazonas (AM)</option>
+            <option value="BA">Bahia (BA)</option>
+            <option value="CE">Ceará (CE)</option>
+            <option value="DF">Distrito Federal (DF)</option>
+            <option value="ES">Espírito Santo (ES)</option>
+            <option value="GO">Goiás (GO)</option>
+            <option value="MA">Maranhão (MA)</option>
+            <option value="MT">Mato Grosso (MT)</option>
+            <option value="MS">Mato Grosso do Sul (MS)</option>
+            <option value="MG">Minas Gerais (MG)</option>
+            <option value="PA">Pará (PA)</option>
+            <option value="PB">Paraíba (PB)</option>
+            <option value="PR">Paraná (PR)</option>
+            <option value="PE">Pernambuco (PE)</option>
+            <option value="PI">Piauí (PI)</option>
+            <option value="RJ">Rio de Janeiro (RJ)</option>
+            <option value="RN">Rio Grande do Norte (RN)</option>
+            <option value="RS">Rio Grande do Sul (RS)</option>
+            <option value="RO">Rondônia (RO)</option>
+            <option value="RR">Roraima (RR)</option>
+            <option value="SC">Santa Catarina (SC)</option>
+            <option value="SP">São Paulo (SP)</option>
+            <option value="SE">Sergipe (SE)</option>
+            <option value="TO">Tocantins (TO)</option>
+            
+        </p>
+            </select>  
+
+            <p>
+                <label for="iprof">Profissão
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="ADV">Advogado</option>
+                    <option value="ARQ">Arquiteto</option>
+                    <option value="ENG">Engenheiro</option>
+                    <option value="MED">Médico</option>
+                    <option value="ENF">Enfermeiro</option>
+                    <option value="ODT">Odontólogo</option>
+                    <option value="FIS">Fisioterapeuta</option>
+                    <option value="PSI">Psicólogo</option>
+                    <option value="NUT">Nutricionista</option>
+                    <option value="FAR">Farmacêutico</option>
+                    <option value="BIO">Biólogo</option>
+                    <option value="QUIM">Químico</option>
+                    <option value="FISQ">Físico</option>
+                    <option value="MAT">Matemático</option>
+                    <option value="TECINF">Técnico em Informática</option>
+                    <option value="CIECOMP">Cientista da Computação</option>
+                    <option value="PROF">Professor</option>
+                    <option value="JORN">Jornalista</option>
+                    <option value="DESGRAF">Designer Gráfico</option>
+                    <option value="ART">Artista Plástico</option>
+                    <option value="MUS">Músico</option>
+                    <option value="ENGSOFT">Engenheiro de Software</option>
+                    <option value="ANALIST">Analista de Sistemas</option>
+                    <option value="PUBLIC">Publicitário</option>
+                    <option value="CONT">Contador</option>
+                    <option value="VET">Veterinário</option>
+                    <option value="SOC">Sociólogo</option>
+                    <option value="ECON">Economista</option>
+                    <option value="ADMESP">Administrador de Empresas</option>
+                </datalist>
+                </label>
+            </p>
+            <p>
+                <label for="imsg">Mensagem:</label><br>
+                <textarea name="msg" id="imgs" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
